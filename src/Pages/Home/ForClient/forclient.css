@@ -1,0 +1,124 @@
+.forclient-section {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(143, 143, 143, 0.15);
+    padding: 2rem;
+}
+
+.client-title {
+    width: 460px;
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.client-descriptions {
+    width: 411px;
+    height: 47px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.post-btn {
+    display: inline-flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #2B68DD;
+}
+
+.browse-btn {
+    display: inline-flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid #2B68DD;
+}
+
+.forclient-img {
+    border-radius: 10px;
+    border: 1px solid #2B68DD;
+}
+
+/* Responsivee for mobile device */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .forclient-section {
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 15px 0px rgba(143, 143, 143, 0.15);
+        padding: 2rem;
+    }
+
+    .client-title {
+        width: 300px;
+        color: #000;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .client-descriptions {
+        width: 300px;
+        height: 47px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    .post-btn {
+        display: inline-flex;
+        padding: 5px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 6px;
+        background: #2B68DD;
+        margin-right: 10px;
+        margin-left: 44px;
+    }
+
+    .browse-btn {
+        display: inline-flex;
+        padding: 5px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 6px;
+        border: 1px solid #2B68DD;
+        margin-left: 48px;
+    }
+
+    .forclient-img {
+        border-radius: 10px;
+        border: 1px solid #2B68DD;
+    }
+
+
+
+}

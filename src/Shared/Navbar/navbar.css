@@ -1,0 +1,47 @@
+.line {
+    border-bottom: 1px solid #D7D7D7;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.font {
+    font-family: Poppins;
+}
+
+.navbar-start {
+    width: 10%;
+    justify-content: flex-start;
+}
+
+.login-btn {
+
+    display: inline-flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+}
+
+.sigupn-btn {
+    display: inline-flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #2B68DD;
+}
+
+.line {
+    height: 0px !important;
+    /* color:  !important; */
+    border-bottom: 1px solid #505b6826;
+    margin-top: 2px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .download-btn {
+        padding: 10px 13px;
+    }
+}

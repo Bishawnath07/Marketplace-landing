@@ -1,0 +1,15 @@
+.brands {
+    background: #F5F5F5;
+    height: 144px;
+    flex-shrink: 0;
+}
+
+.trusted {
+    width: 247px;
+    color: #969696;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}

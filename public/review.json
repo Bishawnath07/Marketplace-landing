@@ -1,0 +1,43 @@
+[
+    {
+      "_id": "643010f9f5a7e52ce1e8fa66",
+      "name": "John Doe",
+      "title" : "UI/UX Designer",
+      "photo":"https://i.ibb.co/gTYr2Yy/Ellipse-70.png" ,
+      "details": "It is a long established fact that a reader will be distracted by the . A classic novel by F. Scott Fitzgerald set in the 1920s.",
+      "rating": 2
+    },
+    {
+      "_id": "742318c8b6e4d2f3a0c9e547",
+      "name": "Smartphone",
+      "title" : "UI/UX Designer",  
+      "photo":"https://i.ibb.co/gTYr2Yy/Ellipse-70.png" ,
+      "details": "This smartphone features a high-resolution screen and a powerful processor.It is a long established fact that a reader will be distracted by the …",
+      "rating": 4.5
+    },
+    {
+      "_id": "894526a1d3c7b9e2f6a5d821",
+      "name": "The Great Gatsby",
+      "title" : "UI/UX Designer",
+      "photo":"https://i.ibb.co/gTYr2Yy/Ellipse-70.png" ,
+      "details": "A classic novel by F. Scott Fitzgerald set in the 1920s.",
+      "rating": 5
+    },
+    {
+      "_id": "623410e9f5a7e52ce1e8fa77",
+      "name": "Tasty Bites",
+      "title" : "UI/UX Designer",
+      "photo":"https://i.ibb.co/gTYr2Yy/Ellipse-70.png" ,
+      "details": "The food was delicious, but the service was a bit slow. It is a long established fact that a reader will be distracted by the …",
+      "rating": 3.5
+    },
+    {
+      "_id": "753210f9f5a7e52ce1e8fa88",
+      "name": "Inception",
+      "title" : "UI/UX Designer",
+      "photo":"https://i.ibb.co/gTYr2Yy/Ellipse-70.png" ,
+      "details": "A mind-bending science fiction thriller directed by Christopher Nolan.It is a long established fact that a reader will be distracted by the …",
+      "rating": 4.8
+    }
+  ]
+  

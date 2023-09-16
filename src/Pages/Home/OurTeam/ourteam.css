@@ -1,0 +1,94 @@
+.team-title{
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.team-description{
+    width: 516px;
+    color: #302E2E;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.card{
+    width: 288px;
+height: 353px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+}
+.name{
+    color: #000;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.687%; /* 31.845px */
+text-transform: capitalize;
+}
+.details{
+    color: #000;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 132.687%; /* 21.23px */
+text-transform: capitalize;
+}
+
+/* for mobile  responsive */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .team-title{
+        color: #000;
+        text-align: center;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    
+    }
+    .team-description{
+        width: 300px;
+        color: #302E2E;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    .card{
+        width: 288px;
+    height: 353px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    }
+    .name{
+        color: #000;
+    
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.687%; /* 31.845px */
+    text-transform: capitalize;
+    }
+    .details{
+        color: #000;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.687%; /* 21.23px */
+    text-transform: capitalize;
+    }
+        
+    
+    }
+
