@@ -1,0 +1,14 @@
+.social-button {
+    width: 840px; 
+    height: 69px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Inter;
+    text-align: center;
+    line-height: 69px;
+    cursor: pointer;
+  }
