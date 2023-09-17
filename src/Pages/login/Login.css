@@ -1,5 +1,20 @@
-.social-button {
-    width: 840px; 
+.login-button {
+    width: 481px; 
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2B68DD;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 500;
+    font-weight: bold;
+    font-family: Inter;
+    text-align: center;
+    line-height: 57px;
+    cursor: pointer;
+  }
+  .social-login-button {
+    width: 481px; 
     height: 69px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -13,30 +28,13 @@
     cursor: pointer;
   }
 
-  .submit-button {
-    width: 840px; 
-    height: 69px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #2B68DD;
-    font-size: 16px;
-    color: #FFF;
-    font-weight: bold;
-    font-family: Inter;
-    text-align: center;
-    line-height: 69px;
-    cursor: pointer;
-  }
-
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
-    .social-button {
-      width: 90%; 
+    .login-button {
+      width: 70%; 
       
     }
-    .submit-button{
+    .social-login-button{
       width: 90%; 
 
     }
   }
-
- 

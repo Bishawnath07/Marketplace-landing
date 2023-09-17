@@ -69,10 +69,9 @@ const Navbar = () => {
             src={logo}
             alt=""
           />
-          
+
           <div className=" lg:hidden right-side-btn">
             <div className=" flex items-center  space-x-4">
-           
               <button className="bg-white log-in text-blue-500  rounded-lg hover:bg-blue-500 hover:text-white transition duration-300">
                 Log In
               </button>
@@ -108,9 +107,11 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-            <button className="bg-white text-blue-500 px-4 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300">
-              Log In
-            </button>
+            <Link to={'/login'}>
+              <button className="bg-white text-blue-500 px-4 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300">
+                Log In
+              </button>
+            </Link>
             <Link to="/signup">
               <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300">
                 Sign Up
