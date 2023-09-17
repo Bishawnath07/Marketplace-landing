@@ -35,7 +35,7 @@ border: 2px solid #FFF;
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 
 .hired-title{
-width: 300px;
+width: 280px;
 color: #FFF;
 font-size: 28px;
 font-style: normal;
@@ -43,7 +43,7 @@ font-weight: 400;
 line-height: normal;
 }
 .hired-description{
-width: 300px;
+width: 270px;
 color: #FFF;
 font-size: 15px;
 font-style: normal;
@@ -61,7 +61,7 @@ background: #FFF;
 margin-bottom: 15px;
 }
 .hired-img img{
-    height: 310px;
+    height: 230px;
     border-radius: 10px;
 border: 2px solid #FFF;
 

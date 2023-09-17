@@ -11,7 +11,7 @@ import OurTeam from './OurTeam/OurTeam';
 const Home = () => {
     return (
         <div className='mx-5 md:mx-auto'>
-            {/* <Banner></Banner> */}
+            <Banner></Banner>
              <Brands></Brands>  
              <Category></Category>
             <BestPart></BestPart>
