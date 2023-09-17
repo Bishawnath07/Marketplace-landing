@@ -27,7 +27,7 @@ const OurClients = () => {
             <p className="client-description">Amet lectus ornare sapien fermentum sed. Sed lobortis molestie urna vel ante viverra tempor tristique.</p>
 
         </div>
-            <div className="flex items-center justify-center mt-10 mx-16">
+            <div className="flex items-center justify-center mt-10 lg:mx-16">
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}

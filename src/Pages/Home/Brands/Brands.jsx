@@ -7,7 +7,7 @@ import  './brands.css'
 
 const Brands = () => {
     return (
-        <div  className="container mx-auto  flex justify-between items-center p-5 lg:mt-16 mt-10 brands">
+        <div  className="container mx-auto   grid grid-cols-3 lg:grid-cols-6 gap-3 items-center p-3 lg:p-5 lg:mt-16 mt-10 brands">
             <p className='trusted'>Trusted By Brands & Renowned Company</p>
             <img src={img} alt="" />
             <img src={img2} alt="" />

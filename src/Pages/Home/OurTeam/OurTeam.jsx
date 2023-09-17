@@ -12,29 +12,29 @@ const OurTeam = () => {
                 <h1 className="team-title">Our Team</h1>
                 <p className="team-description">vAmet lectus ornare sapien fermentum sed. Sed lobortis molestie urna vel ante viverra tempor tristique.</p>
             </div>
-            <div  className="grid lg:grid-cols-4 gap-5 mt-10">
-                    <div className='card'>
+            <div  className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-10">
+                    <div className='card  mx-auto '>
                         <img src={img} alt="" />
                         <div className='card-body text-center'>
                             <h1 className='name'>Selena Ahmed</h1>
                             <p className='details'>Founder</p>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='card  mx-auto '>
                         <img src={img2} alt="" />
                         <div className='card-body text-center'>
                             <h1 className='name'>Willim Tylor</h1>
                             <p className='details'>Co-Founder</p>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='card  mx-auto '>
                         <img src={img3} alt="" />
                         <div className='card-body text-center'>
                             <h1 className='name'>Goergina Willison</h1>
                             <p className='details'>Business Manager</p>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='card  mx-auto '>
                         <img src={img4} alt="" />
                         <div className='card-body text-center'>
                             <h1 className='name'>Selena Ahmed</h1>

@@ -13,25 +13,6 @@
     justify-content: flex-start;
 }
 
-.login-btn {
-
-    display: inline-flex;
-    padding: 14px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 5px;
-}
-
-.sigupn-btn {
-    display: inline-flex;
-    padding: 14px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 6px;
-    background: #2B68DD;
-}
 
 .line {
     height: 0px !important;
@@ -41,7 +22,34 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .download-btn {
-        padding: 10px 13px;
+    .log-in {
+
+        display: inline-flex;
+        padding: 4px 9px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 5px;
+        width:70px;
+        font-size: 14px;
+        border: 1px solid #2B68DD;
+        margin-left: 10px;
+
+
+    }
+    
+    .sign-up {
+        display: inline-flex;
+        padding: 4px  9px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 6px;
+        background: #2B68DD;
+        width: 80px;
+        font-size: 14px;
+    }
+    .right-side-btn{
+        margin-left: 6rem;
     }
 }

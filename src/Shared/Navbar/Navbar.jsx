@@ -19,26 +19,26 @@ const Navbar = () => {
         <Link to={"/"}>Hire Talent</Link>
       </li>
       <li onClick={handleClick}>
-        <Link to={"/about"}>Find Work</Link>
+        <Link to={"/find"}>Find Work</Link>
       </li>
       <li onClick={handleClick}>
-        <Link to={"/products"}>Payment System</Link>
+        <Link to={"/payment"}>Payment System</Link>
       </li>
       <li onClick={handleClick}>
-        <Link to={"/pricing"}>Team</Link>
+        <Link to={"/team"}>Team</Link>
       </li>
       <li onClick={handleClick}>
-        <Link to={"/client-says"}>About</Link>
+        <Link to={"/about"}>About</Link>
       </li>
       <li onClick={handleClick}>
-        <Link to={"/review"}>Help</Link>
+        <Link to={"/help"}>Help</Link>
       </li>
     </>
   );
 
   return (
-    <div>
-      <div className="navbar container mx-auto">
+    <div className="container mx-auto">
+      <div className="navbar ">
         <div className="navbar-start">
           <div className="dropdown  z-10">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -69,12 +69,14 @@ const Navbar = () => {
             src={logo}
             alt=""
           />
-          <div className="navbar-end lg:hidden">
-            <div className=" flex items-center space-x-4">
-              <button className="bg-white login-btn text-blue-500  rounded-lg hover:bg-blue-500 hover:text-white transition duration-300">
+          
+          <div className=" lg:hidden right-side-btn">
+            <div className=" flex items-center  space-x-4">
+           
+              <button className="bg-white log-in text-blue-500  rounded-lg hover:bg-blue-500 hover:text-white transition duration-300">
                 Log In
               </button>
-              <button className="bg-blue-500 text-white px-2 py-1 rounded-lg hover:bg-blue-600 transition duration-300">
+              <button className="bg-blue-500 sign-up text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300">
                 Sign Up
               </button>
             </div>

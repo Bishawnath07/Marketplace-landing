@@ -28,8 +28,8 @@
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 .slider {
-    
-    height: 301px;
+    width: 450px;
+    height: 401px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #FFF;
