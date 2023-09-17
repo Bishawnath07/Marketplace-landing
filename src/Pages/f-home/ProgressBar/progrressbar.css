@@ -1,0 +1,21 @@
+.progress-title {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.edit-btn{
+    display: inline-flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 10px;
+border: 1px solid #2B68DD;
+background: #2B68DD;border-radius: 10px;
+margin-left: 8rem;
+margin-top: 20px;
+}
