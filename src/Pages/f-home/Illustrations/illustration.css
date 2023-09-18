@@ -1,0 +1,22 @@
+.illustration-title{
+    color: #000;
+font-family: Merriweather;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.illustration-btn{
+    color: #2B68DD;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.Card{
+    width: 395px;
+height: 252px;
+flex-shrink: 0;
+border-radius: 10px;
+}
