@@ -1,12 +1,16 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import "./ClientSingUp.css";
 import { AiFillApple } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 
 import { CountryDropdown } from "react-country-region-selector";
+import { AuthContext } from "../../Providers/AuthProvider";
 
 const ClientSingUp = () => {
   const [country, setCountry] = useState("Bangladesh");
+  
+
+  const {createUser, googleSingIn} = useContext(AuthContext)
 
   const handleClientsingup = event =>{
     event.preventDefault();
@@ -17,7 +21,21 @@ const ClientSingUp = () => {
     const password = form.password.value;
     const country = form.country.value;
 
+    createUser(email, password)
+    .then(result => {
+      const loggedUser = result.user;
+      console.log(loggedUser)
+    })
+
     console.log(firstName, lastName, email, password, country);
+  }
+
+  const handleGoogleSingIn =() =>{
+    googleSingIn()
+    .then(result => {
+      const loggedInUser = result.user;
+      console.log(loggedInUser)
+    })
   }
 
   return (
@@ -30,7 +48,7 @@ const ClientSingUp = () => {
         </span>{" "}
         Continue with Apple
       </button>
-      <button className="social-button !mx-auto text-center justify-center items-center flex mt-[23px]">
+      <button onClick={handleGoogleSingIn} className="social-button !mx-auto text-center justify-center items-center flex mt-[23px]">
         {" "}
         <span className="text-[32px] lg:mr-[105px] mr-[30px]">
           <FcGoogle></FcGoogle>
