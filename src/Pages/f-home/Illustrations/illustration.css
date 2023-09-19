@@ -20,3 +20,31 @@ height: 252px;
 flex-shrink: 0;
 border-radius: 10px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+.illustration-title{
+    color: #000;
+font-family: Merriweather;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.illustration-btn{
+    color: #2B68DD;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+/* border: 1px solid #7c7373;
+border-radius: 5px;
+padding: 5px; */
+}
+.Card{
+    width: 350px;
+height: 252px;
+flex-shrink: 0;
+border-radius: 10px;
+}
+}

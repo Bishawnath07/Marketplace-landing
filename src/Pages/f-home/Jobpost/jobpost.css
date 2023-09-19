@@ -1,0 +1,31 @@
+.job-post-title {
+
+    color: #000;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.view-all-jobs-btn {
+    display: inline-flex;
+    height: 56px;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2B68DD;
+}
+.tags{
+    display: inline-flex;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 30px;
+background: #F5F5F5;
+cursor: pointer;
+}
